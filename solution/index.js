@@ -1,36 +1,24 @@
-let continueGame;
-let guessNumber;
+// random value generated
+let randomNumber = Math.floor(Math.random() * 101);
+//! Returns a random INTEGER (floor()) from 0 to 100:
+console.log(randomNumber);
 
-do {
-  let live = 5;
+//? counting the number of guesses
+//? made for correct Guess
+let guess = 1;
 
-  const randomNumber = Math.floor(Math.random() * 101);
-  //! Returns a random INTEGER (floor()) from 0 to 100:
-  console.log(randomNumber);
+document.getElementById("submitGuess").onclick = function () {
+  //? number guessed by user
+  let guessNumber = document.getElementById("guess").value;
 
-  do {
-    const guessNumber = Number(prompt("Enter a number between 0 and 100..."));
-    live -= 1;
-
-    if (guessNumber === randomNumber) {
-      alert(`Congrats! Your ${5 - live}th try.`);
-      break;
-    } else {
-      alert(`Be careful! You have only ${live} lives!`);
-
-      if (guessNumber > randomNumber) {
-        alert("DOWN ⬇");
-      } else if (guessNumber < randomNumber) {
-        alert(`UP ⬆`);
-      }
-    }
-  } while (live > 0);
-
-  if (live === 0 && guessNumber !== randomNumber) {
-    alert(`Sorry, game over..`);
+  if (randomNumber == guessNumber) {
+    alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN " + guess + " GUESS ");
+  } else if (randomNumber > guessNumber) {
+    //? if guessed number is greater than actual number
+    guess++;
+    alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+  } else {
+    guess++;
+    alert("OOPS SORRY!! TRY A GREATER NUMBER");
   }
-
-  continueGame = prompt(`Do you wanna play again? (Y/N)`);
-} while (continueGame == "Y" || continueGame == "y");
-
-alert(`See you next time 👋`);
+};
