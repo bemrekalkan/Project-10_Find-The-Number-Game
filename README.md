@@ -3,7 +3,7 @@
 
 ## Project-10 :Find the Number Game
 
-## GO TO NETLIFY ➡ https://02google.netlify.app/
+## GO TO NETLIFY ➡ https://10findthenumbergame.netlify.app/
 
 <p><img align="center" alt="gif" src="./solution/Project-10-Find-The-Number-Game.gif" width="500" height="320" /></p>
 
