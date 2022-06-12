@@ -31,7 +31,6 @@ document.getElementById("submitGuess").onclick = function () {
 
   if (randomNumber == guessNumber) {
     congratsMessage.textContent = ` 👍 CONGRATULATIONS 👏 YOU GUESSED IT RIGHT IN ${guess} GUESS`;
-    // alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN " + guess + " GUESS ");
   } else if (randomNumber > guessNumber) {
     //? if guessed number is greater than actual number
     guess++;
