@@ -10,6 +10,7 @@ let guess = 1;
 //! SELECTORS:
 const submit = document.getElementById("submitGuess");
 const guessInput = document.getElementById("guess");
+const congratsMessage = document.getElementById("congrats");
 
 //! Calling the click function of the submit button by pressing the enter key from the keyboard
 guessInput.addEventListener("keydown", (e) => {
@@ -29,7 +30,8 @@ document.getElementById("submitGuess").onclick = function () {
   // console.log(guessNumber);
 
   if (randomNumber == guessNumber) {
-    alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN " + guess + " GUESS ");
+    congratsMessage.textContent = `CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN ${guess} GUESS`;
+    // alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN " + guess + " GUESS ");
   } else if (randomNumber > guessNumber) {
     //? if guessed number is greater than actual number
     guess++;
