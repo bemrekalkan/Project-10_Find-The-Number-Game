@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.guessingGame {
+  margin-top: 15rem;
+}
+
 .container {
   display: flex;
   flex-direction: row;

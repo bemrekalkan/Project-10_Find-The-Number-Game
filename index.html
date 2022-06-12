@@ -13,25 +13,25 @@
     />
   </head>
   <body>
-    <h1 class="display-1 text-center text-danger fw-bold mt-5">
-      🎲 Guess the Number 🎲
-    </h1>
-    <p class="display-6 text-info text-center mt-4 fw-bold">
-      I am thinking of a number between 1 and 100. Can you guess it ❓
-    </p>
+    <div class="guessingGame">
+      <h1 class="display-1 text-center text-danger fw-bold mt-5">
+        🎲 Guess the Number 🎲
+      </h1>
+      <p class="display-6 text-info text-center mt-4 fw-bold">
+        I am thinking of a number between 1 and 100. Can you guess it ❓
+      </p>
 
-    <div class="container text-center mt-5">
-      <label class="fw-bold text-success" for="guess">My Guess:</label>
-      <input type="number" name="guess" id="guess" />
-      <input
-        class="btn btn-info text-white"
-        type="submit"
-        value="Check My Guess"
-        id="submitGuess"
-      />
+      <div class="container text-center mt-5">
+        <label class="fw-bold text-success" for="guess">My Guess:</label>
+        <input type="number" name="guess" id="guess" />
+        <input
+          class="btn btn-info text-white"
+          type="submit"
+          value="Check My Guess"
+          id="submitGuess"
+        />
+      </div>
     </div>
-
-    <p id="feedback"></p>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
