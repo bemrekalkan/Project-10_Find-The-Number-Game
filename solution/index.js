@@ -30,14 +30,14 @@ document.getElementById("submitGuess").onclick = function () {
   // console.log(guessNumber);
 
   if (randomNumber == guessNumber) {
-    congratsMessage.textContent = `CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN ${guess} GUESS`;
+    congratsMessage.textContent = ` 👍 CONGRATULATIONS 👏 YOU GUESSED IT RIGHT IN ${guess} GUESS`;
     // alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN " + guess + " GUESS ");
   } else if (randomNumber > guessNumber) {
     //? if guessed number is greater than actual number
     guess++;
-    alert("OOPS SORRY!! TRY A GREATER NUMBER");
+    alert("OOPS SORRY 😔 TRY A GREATER 👆 NUMBER");
   } else {
     guess++;
-    alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+    alert("OOPS SORRY 😔 TRY A SMALLER 👇 NUMBER");
   }
 };
