@@ -1,7 +1,11 @@
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-# Project-10 : Find the Number Game
+## Project-10 :Find the Number Game
+
+## GO TO NETLIFY ➡ https://02google.netlify.app/
+
+<p><img align="center" alt="gif" src="./solution/Project-10-Find-The-Number-Game.gif" width="500" height="320" /></p>
 
 ## Description
 
@@ -17,22 +21,6 @@ Project aims to create find the number game (between 0 to 100).
   - Let your number be 65 and user guessed '20' the first time.
   - Prompt the user to "Enter a number between 20 and 100".
   - If the user guessed 80 on the second guess, this time you should prompt "Enter a number between 20 (the lowest guess closest to your number) to 80 (the closest big guess to your number)".
-
-## Project Skeleton
-
-```
-10-find-number(folder)
-|
-|----readme.md         # Given to the students (Definition of the project)
-|----solution
-        |----index.html
-        |----style.css
-        |----index.js
-```
-
-## Expected Outcome
-
-![Project 004 Snapshot](Project_004.png)
 
 ## Objective
 
@@ -51,34 +39,3 @@ Build a Find the Number Game (Between 0 to 100)
 - improve coding skills within HTML & CSS & JS
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-
-- Step 1: Download or clone project repo on Github
-
-- Step 2: Create project folder for local public repo on your pc
-
-- Step 3: Create JS code for Find the Number Game
-
-> > Part-1 HTML Structure
-
-    - Creat structure of the HTML5
-    - Give name of your project (title)
-    - Create the main structure of the HTML
-
-> > Part-2 CSS Structure
-
-    - Set a background image or define background-color
-    - Set container background color and margin
-    - Define others color-size-padding etc...
-
-> Part-3 JS Structure
-
-    - Create code for find the number between 0 to 100
-    -
-
-- Step 4: Push your application into your own public repo on Github
-
-- Step 5: Deploy your application on Github template to showcase your app within your team.
-
-<center> ⌛ Happy Coding  ✍ </center>
